@@ -1,4 +1,4 @@
-.container {
+.container-hero {
   @media screen and (min-width: 768px) {
     width: 768px;
     min-height: 399px;
@@ -7,7 +7,7 @@
     padding-right: 15px;
   }
 }
-.container {
+.container-hero {
   @media screen and (min-width: 1200px) {
     width: 1200px;
     min-height: 665px;
@@ -24,8 +24,10 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    overflow: hidden;
   }
 }
+
 .hero-title {
   @media screen and (max-width: 767px) {
     width: 218px;
