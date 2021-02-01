@@ -96,6 +96,10 @@ h3 {
 }
 
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
@@ -105,11 +109,9 @@ h3 {
   width: 100%;
   padding-top: 6px;
   height: 100%;
-  position: absolute;
 }
 @media screen and (min-width: 768px) {
   .container--size {
-    position: absolute;
     padding-top: 37px;
   }
 }
@@ -160,6 +162,7 @@ h3 {
 }
 
 .menu-openMob {
+  margin-left: 61px;
   border: none;
   background: transparent;
 }
@@ -416,6 +419,600 @@ h3 {
 }
 .menu-list__link:hover, .menu-list__link:focus {
   color: #d41443;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    min-height: 399px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    min-height: 665px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/*mobile*/
+@media screen and (max-width: 767px) {
+  .hero {
+    background: #ffb8ca;
+    height: 502px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-title {
+    width: 218px;
+    height: 106px;
+    padding-top: 193px;
+    margin: 0px;
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    z-index: 3;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-span {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 0.95;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+    padding-top: 19px;
+    position: relative;
+    z-index: 3;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-ice {
+    position: absolute;
+    width: 171px;
+    height: 410px;
+    margin-left: 117px;
+    margin-top: 92px;
+    margin-right: 32px;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-ellipce {
+    width: 346px;
+    height: 344px;
+    position: absolute;
+    margin-bottom: 75px;
+    margin-left: 36px;
+    margin-top: 83px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-button {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    position: relative;
+    z-index: 3;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bioeco {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-girl {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-number {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-name {
+    display: none;
+  }
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+  .hero {
+    background: #ffb8ca;
+    height: 399px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    width: 162px;
+    height: 80px;
+    padding-top: 102px;
+    margin: 0px;
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 1.13;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    z-index: 3;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-span {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 0.9;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+    padding-top: 20px;
+    position: relative;
+    z-index: 3;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-ice {
+    position: absolute;
+    width: 143px;
+    height: 336px;
+    margin-left: 378px;
+    margin-top: 63px;
+    margin-right: 247px;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-ellipce {
+    position: absolute;
+    width: 324x;
+    height: 322px;
+    margin-bottom: 46px;
+    margin-right: 137px;
+    margin-left: 307px;
+    margin-top: 31px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-button {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    width: 114px;
+    height: 48px;
+    margin-left: 120px;
+    margin-top: -86px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 1.5;
+    color: #ffffff;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-button {
+    font-family: DM Sans, sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    color: #d41443;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 15px;
+    margin-right: 8px;
+  }
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #ffffff;
+  background-color: #d41443;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .bioeco {
+    width: 124px;
+    height: 126px;
+    margin-top: 59px;
+    margin-bottom: 28px;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-left: 124px;
+    margin-top: -30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-icon {
+    fill: #d41443;
+  }
+}
+
+.hero-arrow:hover,
+.hero-arrow:focus,
+.hero-icon:hover,
+.hero-icon:focus {
+  fill: #ffffff;
+  background-color: #d41443;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-girl {
+    display: block;
+    width: 168px;
+    height: 133px;
+    position: absolute;
+    margin-left: 580px;
+    z-index: 2;
+    margin-top: 83px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-date {
+    display: block;
+    margin-top: -130px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-number {
+    font-family: Titan One, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.14;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-number:after {
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 41px;
+    bottom: 15px;
+    z-index: -1;
+    margin-left: 690px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-name {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    color: #ffffff;
+    text-align: right;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-amouth {
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+/*desktop*/
+@media screen and (min-width: 1200px) {
+  .hero {
+    background: #ffb8ca;
+    height: 665px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    width: 277px;
+    height: 137px;
+    padding-top: 171px;
+    margin: 0px;
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    z-index: 3;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-span {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 0.9;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+    padding-top: 30px;
+    position: relative;
+    z-index: 3;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-ice {
+    position: absolute;
+    width: 236px;
+    height: 557px;
+    margin-left: 594px;
+    margin-top: 108px;
+    margin-right: 247px;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-ellipce {
+    position: absolute;
+    width: 538x;
+    height: 538px;
+    margin-bottom: 75px;
+    margin-right: 267px;
+    margin-left: 475px;
+    margin-top: 52px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-text {
+    width: 200px;
+    height: 78px;
+    margin-left: 200px;
+    margin-top: -150px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ffffff;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-button {
+    font-family: DM Sans, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #d41443;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    margin-right: 17px;
+    padding: 11px 22px;
+    height: 40px;
+  }
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #ffffff;
+  background-color: #d41443;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .bioeco {
+    width: 188px;
+    height: 191px;
+    margin-top: 150px;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bioeco-img {
+    width: 188px;
+    height: 191px;
+    margin-top: -50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    margin-left: 200px;
+    margin-top: -60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-icon {
+    fill: #d41443;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-girl {
+    display: block;
+    width: 293px;
+    height: 232px;
+    position: absolute;
+    margin-left: 878px;
+    z-index: 2;
+    margin-top: 95px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-date {
+    display: block;
+    margin-top: -200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-number {
+    font-family: Titan One, sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 1.15;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-number:after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 35px;
+    bottom: 25px;
+    z-index: -1;
+    margin-left: 1115px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #ffffff;
+    text-align: right;
+    margin: 0;
+    padding-bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-amouth {
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+  }
 }
 
 h1,
