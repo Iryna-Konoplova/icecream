@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\icons\\vector.svg":[["vector.a6c0e849.svg","images/icons/vector.svg"],"images/icons/vector.svg"],"./..\\images\\icons\\vector-white.svg":[["vector-white.aba232d0.svg","images/icons/vector-white.svg"],"images/icons/vector-white.svg"],"./..\\images\\splashing_milk@2x.jpg":[["splashing_milk@2x.b13ca646.jpg","images/splashing_milk@2x.jpg"],"images/splashing_milk@2x.jpg"],"./..\\images\\splashing_milk.jpg":[["splashing_milk.7ffcb40b.jpg","images/splashing_milk.jpg"],"images/splashing_milk.jpg"],"./..\\images\\quotes.png":[["quotes.13d917a9.png","images/quotes.png"],"images/quotes.png"],"./..\\images\\ellipse.svg":[["ellipse.3e233546.svg","images/ellipse.svg"],"images/ellipse.svg"],"./..\\images\\home.svg":[["home.941c208c.svg","images/home.svg"],"images/home.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\images\\icons\\vector.svg":[["vector.a6c0e849.svg","images/icons/vector.svg"],"images/icons/vector.svg"],"./..\\images\\icons\\vector-white.svg":[["vector-white.aba232d0.svg","images/icons/vector-white.svg"],"images/icons/vector-white.svg"],"./..\\images\\splashing_milk.png":[["splashing_milk.283f014f.png","images/splashing_milk.png"],"images/splashing_milk.png"],"./..\\images\\splashing_milk@2x.png":[["splashing_milk@2x.567e6f85.png","images/splashing_milk@2x.png"],"images/splashing_milk@2x.png"],"./..\\images\\quotes.png":[["quotes.13d917a9.png","images/quotes.png"],"images/quotes.png"],"./..\\images\\ellipse.svg":[["ellipse.3e233546.svg","images/ellipse.svg"],"images/ellipse.svg"],"./..\\images\\home.svg":[["home.941c208c.svg","images/home.svg"],"images/home.svg"],"./..\\images\\contacts_background.png":[["contacts_background.57192529.png","images/contacts_background.png"],"images/contacts_background.png"],"./..\\images\\contacts_background@2x.png":[["contacts_background@2x.ef850ce7.png","images/contacts_background@2x.png"],"images/contacts_background@2x.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64533" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57710" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
