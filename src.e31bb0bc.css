@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: DM Sans, sans-serif;
 }
@@ -144,6 +145,7 @@ h3 {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    width: 1117px;
   }
 }
 
@@ -166,6 +168,7 @@ h3 {
   margin-left: 61px;
   border: none;
   background: transparent;
+  padding: 0;
 }
 @media screen and (min-width: 768px) {
   .menu-openMob {
@@ -239,7 +242,7 @@ h3 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 11px 37px;
+  padding: 12px 37px;
   border: none;
   border-radius: 22px;
   color: #d41443;
@@ -420,6 +423,52 @@ h3 {
 }
 .menu-list__link:hover, .menu-list__link:focus {
   color: #d41443;
+}
+
+.toTop {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #d41443;
+  background-color: #ffffff;
+  color: #d41443;
+  transform: rotateZ(-90deg);
+  position: fixed;
+  bottom: 10px;
+  /* отступ кнопки от нижнего края страницы*/
+  right: 10px;
+  cursor: pointer;
+  z-index: 999;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.toTop:hover, .toTop:focus {
+  background-color: #d41443;
+  color: #ffffff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.toTop .icon-arrow-up {
+  fill: currentColor;
+}
+@media screen and (min-width: 1200px) {
+  .toTop .icon-arrow-up {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .toTop {
+    bottom: 15px;
+    left: calc((100% / 2) + 541px);
+    width: 50px;
+    height: 50px;
+    padding-left: 11px;
+    padding-top: 10.5px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1276,8 +1325,8 @@ p {
 .benefits-description p {
   margin-top: 45px;
   margin-bottom: 30px;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-style: normal;
 }
 .benefits-description img {
