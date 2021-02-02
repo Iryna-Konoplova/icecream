@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
       integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
       crossorigin="anonymous" />
+      <!-- Скрипт для плавающей кнопки -->
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <!-- Скрипт для плавного перемещения между якорями -->
+      <!-- <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script> -->
 
   </head>
   <body>
@@ -37,6 +40,7 @@
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
     <script src="./js/button-top.js"></script>
+    <script src="./js/scrollto.js"></script>
 
     <script src="./js/mobile-menu.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -53,7 +57,7 @@
         slidesToScroll: 1
       });
     </script>
-
+    
     <!-- Плавающая кнопка для возврата в начало страницы -->
     <div class="toTop" id="toTop">
       <svg class="icon-arrow-up" width="20px" height="20px">
